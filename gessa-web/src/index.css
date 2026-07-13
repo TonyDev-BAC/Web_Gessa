@@ -1,0 +1,52 @@
+@import "tailwindcss";
+
+@theme {
+  --font-display: "Fredoka", ui-sans-serif, system-ui, sans-serif;
+  --font-body: "Manrope", ui-sans-serif, system-ui, sans-serif;
+  --font-script: "Caveat", cursive;
+
+  --color-gessa-red: #E31E24;
+  --color-gessa-red-dark: #A8121A;
+  --color-gessa-red-deep: #7A0D12;
+  --color-gessa-ink: #1B1512;
+  --color-gessa-cream: #FBF6F0;
+  --color-gessa-sand: #F1E9DE;
+  --color-gessa-gold: #E8B94B;
+
+  --color-peri-red: #E31E24;
+  --color-supercompro-blue: #1E6FE3;
+  --color-saretto-plum: #6B1E3D;
+  --color-selecto-plum: #6B1E3D;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--font-body);
+  background-color: var(--color-gessa-cream);
+  color: var(--color-gessa-ink);
+}
+
+.font-display {
+  font-family: var(--font-display);
+}
+
+.font-script {
+  font-family: var(--font-script);
+}
+
+.text-balance {
+  text-wrap: balance;
+}
+
+::selection {
+  background: var(--color-gessa-red);
+  color: white;
+}
+
+.pattern-dots {
+  background-image: radial-gradient(currentColor 1.5px, transparent 1.5px);
+  background-size: 22px 22px;
+}
