@@ -140,7 +140,7 @@ function BrandStack() {
       {items.map((it) => (
         <div
           key={it.key}
-          className={`${it.offset} rounded-2xl bg-white/80 backdrop-blur-md border border-white/20 px-5 py-4 w-70 shadow-xl relative`}
+          className={`${it.offset} rounded-2xl bg-white/60 backdrop-blur-md border border-white/20 px-5 py-4 w-70 shadow-xl relative`}
         >
           <div className="flex items-left justify-left pl-4 gap-4">
             <it.Logo className="h-20 w-20 object-contain shrink-0" />
