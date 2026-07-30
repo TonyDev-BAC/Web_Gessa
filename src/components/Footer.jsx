@@ -13,7 +13,7 @@ export default function Footer() {
               <GessaWordmark onWhite />
             </div>
             <p className="text-sm leading-relaxed max-w-xs">
-              Grupo Empresarial de Supermercados S.A. Cuatro marcas, una
+              Grupo Empresarial de Supermercados S.A. Cinco marcas, una
               misión: estar cerca de ti.
             </p>
             <div className="flex gap-3 mt-5">

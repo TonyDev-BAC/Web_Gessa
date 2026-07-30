@@ -35,6 +35,15 @@ export const brands = [
     description:
       "La expresión más exclusiva de Saretto: selección gourmet de productos importados, vinos de autor y una experiencia de compra personalizada de principio a fin.",
   },
+  {
+    id: "super-viquez",
+    name: "Super Víquez",
+    tag: "Su super de confianza",
+    stores: "5 tiendas",
+    color: "var(--color-viquez-green)",
+    description:
+      "Súper Víquez es una cadena de supermercados tradicional de la provincia de Heredia, Costa Rica, y ofrece abarrotes, carnes y artículos para el hogar.",
+  },
 ];
 
 export const values = [

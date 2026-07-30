@@ -50,6 +50,16 @@ export function SarettoLogo({ className = "", selecto = false }) {
   );
 }
 
+export function SuperViquezLogo({ className = "" }) {
+  return (
+    <img
+      src="/logos/SPViquez.png"
+      alt="Super Víquez"
+      className={className}
+    />
+  );
+}
+
 function CartGlyph({ color }) {
   return (
     <svg width="1em" height="1em" viewBox="0 0 24 24" fill="none" className="text-[1.1em]">
