@@ -13,8 +13,7 @@ export default function Footer() {
               <GessaWordmark onWhite />
             </div>
             <p className="text-sm leading-relaxed max-w-xs">
-              Grupo Empresarial de Supermercados S.A. Cuatro marcas, una
-              misión: estar cerca de ti.
+              Grupo Empresarial de Supermercados S.A.
             </p>
             <div className="flex gap-3 mt-5">
               <SocialIcon href="https://www.instagram.com/perimercados?igsi=MXFzaHFrdWs5azF4bw="><InstagramGlyph /></SocialIcon>

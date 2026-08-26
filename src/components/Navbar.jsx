@@ -7,7 +7,7 @@ const links = [
   { href: "#marcas", label: "Marcas" },
   { href: "#nosotros", label: "Nosotros" },
   { href: "#contacto", label: "Contacto" },
-  { href: "#Perimercados", label: "Perimercados" },
+  { href: "https://www.peridomicilio.com/", label: "Perimercados" },
 ];
 
 export default function Navbar() {
