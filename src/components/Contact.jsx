@@ -10,7 +10,7 @@ const items = [
 
 export default function Contact() {
   return (
-    <section id="contacto" className="py-28" style={{ backgroundColor: "var(--color-gessa-sand)" }}>
+    <section id="contacto" className="py-28" style={{ backgroundColor: "var(--color-gessa-sand)", backgroundImage: "url('/imagenes/bg3.png')", backgroundRepeat: "no-repeat", backgroundSize: "auto" }}>
       <div className="max-w-7xl mx-auto px-5 sm:px-8">
         <Reveal>
           <span

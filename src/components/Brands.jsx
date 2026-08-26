@@ -5,7 +5,7 @@ import Reveal from "./Reveal";
 
 export default function Brands() {
   return (
-    <section id="marcas" className="py-28 bg-gessa-cream" style={{ backgroundColor: "var(--color-gessa-cream)" }}>
+    <section id="marcas" className="py-28 bg-gessa-cream" style={{ backgroundColor: "var(--color-gessa-cream)", backgroundImage: "url('/imagenes/bg1.png')", backgroundRepeat: "no-repeat", backgroundSize: "auto"}}>
       <div className="max-w-7xl mx-auto px-5 sm:px-8">
         <Reveal>
           <span

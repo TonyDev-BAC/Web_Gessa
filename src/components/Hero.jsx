@@ -38,7 +38,7 @@ export default function Hero() {
             <img
               src="\logos\Cintillo Rojo SImple.png"
               alt="Ilustración de un supermercado con un carrito de compras lleno de productos"
-              className="w-full max-w-lg mx-auto lg:mx-0"
+              className="w-full max-w-lg mx-0"
             />
       
 

@@ -7,7 +7,7 @@ export default function Footer() {
   return (
     <footer style={{ backgroundColor: "var(--color-gessa-ink)" }} className="text-white/70 pt-16 pb-8 border-t border-white/10">
       <div className="max-w-7xl mx-auto px-5 sm:px-8">
-        <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-10">
+        <div className="grid sm:grid-cols-2 lg:grid-cols-[repeat(4,1fr)_auto] gap-10">
           <div>
             <div className="text-4xl mb-4">
               <GessaWordmark onWhite />
@@ -59,7 +59,13 @@ export default function Footer() {
               </li>
             </ul>
           </div>
+          <div className="flex items-start justify-end">
+            <img src="/logos/logo2.png" alt="Logo" className="h-25 w-auto object-contain" />
+          </div>
         </div>
+        
+
+
 
         <div className="mt-14 pt-6 border-t border-white/10 flex flex-col sm:flex-row justify-between gap-3 text-xs text-white/40">
           <span>© {year} Gessa - Grupo Empresarial de Supermercados S.A. Todos los derechos reservados.</span>
