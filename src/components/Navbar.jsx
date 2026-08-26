@@ -6,7 +6,7 @@ import { GessaWordmark } from "./Logos";
 const links = [
   { href: "#marcas", label: "Marcas" },
   { href: "#nosotros", label: "Nosotros" },
-  { href: "#contacto", label: "Contacto" },
+  // { href: "#contacto", label: "Contacto" },
   { href: "https://www.peridomicilio.com/", label: "Perimercados" },
 ];
 
@@ -43,13 +43,13 @@ export default function Navbar() {
             </a>
           ))}
           <div className="w-px h-5 bg-black/10" />
-          <a
+          {/* <a
             href="#futuro"
             className="flex items-center gap-1.5 opacity-60 cursor-default"
             title="Próximamente"
           >
             <Briefcase size={15} /> Bolsa de empleo
-          </a>
+          </a> */}
           <a
             href="#contacto"
             className="rounded-full px-5 py-2.5 text-white font-semibold shadow-sm hover:shadow-md transition-shadow"
