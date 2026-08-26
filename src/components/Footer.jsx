@@ -13,12 +13,12 @@ export default function Footer() {
               <GessaWordmark onWhite />
             </div>
             <p className="text-sm leading-relaxed max-w-xs">
-              Grupo Empresarial de Supermercados S.A. Cinco marcas, una
+              Grupo Empresarial de Supermercados S.A. Cuatro marcas, una
               misión: estar cerca de ti.
             </p>
             <div className="flex gap-3 mt-5">
-              <SocialIcon><InstagramGlyph /></SocialIcon>
-              <SocialIcon><FacebookGlyph /></SocialIcon>
+              <SocialIcon href="https://www.instagram.com/perimercados?igsi=MXFzaHFrdWs5azF4bw="><InstagramGlyph /></SocialIcon>
+              <SocialIcon href="https://www.facebook.com/p/Perimercados-61579319739319/"><FacebookGlyph /></SocialIcon>
             </div>
           </div>
 
@@ -64,17 +64,17 @@ export default function Footer() {
 
         <div className="mt-14 pt-6 border-t border-white/10 flex flex-col sm:flex-row justify-between gap-3 text-xs text-white/40">
           <span>© {year} Gessa - Grupo Empresarial de Supermercados S.A. Todos los derechos reservados.</span>
-          <span>Diseñado con enfoque en cercanía, calidad y comunidad.</span>
+          {/* <span>Diseñado con enfoque en cercanía, calidad y comunidad.</span> */}
         </div>
       </div>
     </footer>
   );
 }
 
-function SocialIcon({ children }) {
+function SocialIcon({ children, href }) {
   return (
     <a
-      href="#"
+      href={href}
       className="w-9 h-9 rounded-full bg-white/10 flex items-center justify-center hover:bg-white/20 transition-colors"
     >
       {children}

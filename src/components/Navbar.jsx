@@ -7,6 +7,7 @@ const links = [
   { href: "#marcas", label: "Marcas" },
   { href: "#nosotros", label: "Nosotros" },
   { href: "#contacto", label: "Contacto" },
+  { href: "#Perimercados", label: "Perimercados" },
 ];
 
 export default function Navbar() {
@@ -36,7 +37,7 @@ export default function Navbar() {
             <a
               key={l.href}
               href={l.href}
-              className="transition-colors hover:text-[var(--color-gessa-red)] text-gessa-ink"
+              className="transition-colors hover:text-[var(--color-gessa-red-dark)] text-gessa-ink"
             >
               {l.label}
             </a>

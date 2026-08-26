@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { Store, ArrowUpRight } from "lucide-react";
+import { Store } from "lucide-react";
 import { brands } from "../data/brands";
 import Reveal from "./Reveal";
 
@@ -43,10 +43,7 @@ export default function Brands() {
                     <Store size={13} />
                     {b.stores}
                   </div>
-                  <ArrowUpRight
-                    size={20}
-                    className="text-black/20 group-hover:text-black/60 group-hover:translate-x-1 group-hover:-translate-y-1 transition-all"
-                  />
+                  
                 </div>
 
                 <h3 className="relative font-display font-bold text-3xl mt-6">

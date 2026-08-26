@@ -1,10 +1,7 @@
-// Recreaciones tipográficas de las marcas GESSA a partir del manual de marca compartido.
-// Reemplazar por los archivos SVG/PNG oficiales cuando estén disponibles.
-
 export function GessaWordmark({ className = "", onWhite = false }) {
   return (
     <img
-      src={onWhite ? "/logos/fondo_2.png" : "/logos/logo_sin_fondo.png"}
+      src={onWhite ? "/logos/Logo_gessa.png" : "/logos/Logo_gessa_bgn.png"}
       alt="Gessa"
       className={className}
     />
@@ -14,7 +11,7 @@ export function GessaWordmark({ className = "", onWhite = false }) {
 export function PeriLogo({ className = "" }) {
   return (
     <img
-      src="/logos/Peri-Mercado.png"
+      src="/imagenes/perimercados01.jpg"
       alt="Peri"
       className={className}
     />
@@ -24,7 +21,7 @@ export function PeriLogo({ className = "" }) {
 export function SuperComproLogo({ className = "" }) {
   return (
     <img
-      src="/logos/supercompro.png"
+      src="/imagenes/SC.jpg"
       alt="Super Compro"
       className={className}
     />
@@ -34,17 +31,8 @@ export function SuperComproLogo({ className = "" }) {
 export function SarettoLogo({ className = "", selecto = false }) {
   return (
     <img
-      src="/logos/saretto.png"
+      src="/imagenes/saretto-selecto.png"
       alt="Saretto"
-      className={className}
-    />
-  );
-}
-  export function SarettoSelectoLogo({ className = "", selecto = false }) {
-  return (
-    <img
-      src="/logos/saretto_selecto.png"
-      alt="Saretto Selecto"
       className={className}
     />
   );
@@ -53,7 +41,7 @@ export function SarettoLogo({ className = "", selecto = false }) {
 export function SuperViquezLogo({ className = "" }) {
   return (
     <img
-      src="/logos/SPViquez.png"
+      src="/imagenes/SV.avif"
       alt="Super Víquez"
       className={className}
     />
