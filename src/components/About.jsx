@@ -4,13 +4,13 @@ import Reveal from "./Reveal";
 
 export default function About() {
   return (
-    <section id="nosotros" className="py-28" style={{ backgroundColor: "#F18E28" }}>
+    <section id="nosotros" className="py-28" style={{ backgroundColor: "#06173E" }}>
       <div className="max-w-7xl mx-auto px-5 sm:px-8">
         <div className="grid lg:grid-cols-2 gap-16 items-start">
           <Reveal>
             <span
               className="font-display font-semibold text-sm tracking-[0.2em] uppercase"
-              style={{ color: "black" }}
+              style={{ color: "var(--color-gessa-gold)" }}
             >
               ¿ Quiénes somos ?
             </span>
