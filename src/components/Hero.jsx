@@ -52,7 +52,7 @@ export default function Hero() {
             <br />
             Una misión: estar
             <br />
-            cerca de ti.
+            cerca de vos.
           </motion.h1>
 
           <motion.p
