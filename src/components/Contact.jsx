@@ -2,7 +2,7 @@ import { MapPin, Phone, Mail, Clock } from "lucide-react";
 import Reveal from "./Reveal";
 
 const items = [
-  { icon: <MapPin size={20} />, label: "Sucursal principal", value: "Montelimar, Calle Blancos, San José, Costa Rica" },
+  { icon: <MapPin size={20} />, label: "Oficinas Centrales", value: "Montelimar, Calle Blancos, San José, Costa Rica" },
   { icon: <Phone size={20} />, label: "Teléfono", value: "+506 2247 2300" },
   { icon: <Mail size={20} />, label: "Correo", value: "servicioalcliente@gessacr.com" },
   { icon: <Clock size={20} />, label: "Horario", value: "Lunes a domingo, 7:30 a.m. – 5:30 p.m." },
