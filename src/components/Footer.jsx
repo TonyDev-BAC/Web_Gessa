@@ -60,7 +60,7 @@ export default function Footer() {
             </ul>
           </div>
           <div className="text-4xl">
-            <img src="/logos/logo2.png" alt="Logo" className="h-25 w-auto object-contain" />
+            <img src="/logos/logo3.png" alt="Logo" className="h-25 w-auto object-contain" />
           </div>
         </div>
         

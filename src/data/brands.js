@@ -20,7 +20,7 @@ export const brands = [
   {
     id: "saretto",
     name: "Saretto",
-    tag: "Historia y frescura desde Escazú",
+    tag: "Historia y calidad desde Escazú",
     stores: "2 tiendas",
     color: "var(--color-saretto-plum)",
     description:
