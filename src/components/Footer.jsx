@@ -59,7 +59,7 @@ export default function Footer() {
               </li>
             </ul>
           </div>
-          <div className="flex items-start justify-end">
+          <div className="text-4xl">
             <img src="/logos/logo2.png" alt="Logo" className="h-25 w-auto object-contain" />
           </div>
         </div>
