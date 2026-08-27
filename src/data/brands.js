@@ -28,8 +28,8 @@ export const brands = [
   },
   {
     id: "super-viquez",
-    name: "Super Víquez",
-    tag: "Su super de confianza",
+    name: "Súper Víquez",
+    tag: "Su súper de confianza",
     stores: "4 tiendas",
     color: "var(--color-viquez-green)",
     description:
