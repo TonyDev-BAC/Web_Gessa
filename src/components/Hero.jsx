@@ -36,7 +36,7 @@ export default function Hero() {
         <div>
 
             <img
-              src="\logos\Cintillo Rojo SImple.png"
+              src="\logos\Linea.png"
               alt="Ilustración de un supermercado con un carrito de compras lleno de productos"
               className="w-full max-w-lg mx-0"
             />
