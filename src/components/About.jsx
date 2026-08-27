@@ -12,7 +12,7 @@ export default function About() {
               className="font-display font-semibold text-sm tracking-[0.2em] uppercase"
               style={{ color: "var(--color-gessa-gold)" }}
             >
-              Quiénes somos
+              ¿ Quiénes somos ?
             </span>
             <h2 className="font-display font-semibold text-4xl sm:text-5xl mt-3 text-white text-balance">
               Un grupo empresarial con raíces y visión de crecimiento
