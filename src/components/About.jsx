@@ -4,7 +4,7 @@ import Reveal from "./Reveal";
 
 export default function About() {
   return (
-    <section id="nosotros" className="py-28" style={{ backgroundColor: "#06173E" }}>
+    <section id="nosotros" className="py-28" style={{ backgroundColor: "#123A6B" }}>
       <div className="max-w-7xl mx-auto px-5 sm:px-8">
         <div className="grid lg:grid-cols-2 gap-16 items-start">
           <Reveal>
