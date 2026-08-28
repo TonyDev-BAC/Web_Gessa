@@ -31,14 +31,22 @@ export default function Brands() {
                 transition={{ type: "spring", stiffness: 300, damping: 20 }}
                 className="group relative rounded-3xl bg-white border border-black/5 p-8 h-full overflow-hidden shadow-sm hover:shadow-xl transition-shadow"
               >
-                <div
-                  className="absolute -right-10 -top-10 w-40 h-40 rounded-full opacity-10 group-hover:opacity-20 transition-opacity"
-                  style={{ backgroundColor: b.color }}
-                />
+                <div className="absolute -right-10 -top-10 w-50 h-48 rounded-full overflow-hidden">
+                  <div
+                    className="absolute inset-0 opacity-10 group-hover:opacity-20 transition-opacity"
+                    style={{ backgroundColor: b.color }}
+                  />
+                  <img
+                    src={b.logo}
+                    alt={`${b.name} logo`}
+                    className="absolute inset-0 m-6 w-32 h-32 object-contain opacity-30 group-hover:opacity-50 transition-opacity translate-y-5"
+                  />
+                </div>
                 <div className="relative flex items-start justify-between">
                   <div
                     className="flex items-center gap-2 text-xs font-display font-semibold uppercase tracking-wider rounded-full px-3 py-1"
                     style={{ backgroundColor: `color-mix(in srgb, ${b.color} 15%, white)`, color: b.color }}
+                    
                   >
                     <Store size={26} />
                     {b.stores}

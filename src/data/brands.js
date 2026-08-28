@@ -5,6 +5,7 @@ export const brands = [
     tag: "Cercanía de barrio",
     stores: "17 tiendas",
     color: "var(--color-peri-red)",
+    logo:"/logos/Peri-Mercado.png",
     description:
       "Peri entiende a sus clientes y les ofrece lo que necesitan: amplia variedad, infraestructura cómoda y un servicio excepcional en el corazón de cada comunidad.",
   },
@@ -14,6 +15,7 @@ export const brands = [
     tag: "Precios bajos, todos los días",
     stores: "34 tiendas",
     color: "var(--color-supercompro-blue)",
+    logo:"/logos/supercompro.png",
     description:
       "Un supermercado regional versátil que se adapta a cada zona donde opera. Destaca por su ubicación estratégica y su promesa de precios bajos.",
   },
@@ -23,6 +25,7 @@ export const brands = [
     tag: "Historia y calidad desde Escazú",
     stores: "2 tiendas",
     color: "var(--color-saretto-plum)",
+    logo:"/logos/saretto.png",
     description:
       "Reconocido por su frescura y calidad en frutas, verduras y carnes, con una cava exclusiva de vinos y licores, panadería artesanal y opciones sin gluten y para diabéticos.",
   },
@@ -32,6 +35,7 @@ export const brands = [
     tag: "Su súper de confianza",
     stores: "4 tiendas",
     color: "var(--color-viquez-green)",
+    logo:"/logos/SPViquez.png",
     description:
       "Súper Víquez es una cadena de supermercados tradicional de la provincia de Heredia, Costa Rica, y ofrece abarrotes, carnes y artículos para el hogar.",
   },

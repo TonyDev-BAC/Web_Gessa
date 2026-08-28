@@ -172,7 +172,6 @@ function BrandCarousel() {
       aria-roledescription="carrusel"
       aria-label="Marcas de GESSA"
     >
-      {/* halo de color según la marca activa */}
       <motion.div
         aria-hidden
         className="absolute -inset-8 rounded-[3rem] blur-3xl pointer-events-none"
@@ -205,7 +204,6 @@ function BrandCarousel() {
           </motion.div>
         </AnimatePresence>
 
-        {/* franja de color de marca */}
         <motion.div
           aria-hidden
           className="absolute top-0 left-0 right-0 h-1.5 z-10"
@@ -213,10 +211,8 @@ function BrandCarousel() {
           transition={{ duration: 0.5 }}
         />
 
-        {/* velo inferior para legibilidad de los controles */}
         <div className="absolute inset-x-0 bottom-0 h-28 bg-gradient-to-t from-black/55 via-black/15 to-transparent pointer-events-none" />
 
-        {/* controles */}
         <div className="absolute inset-x-0 bottom-0 flex items-center justify-between gap-3 px-4 py-4">
           <button
             type="button"
@@ -254,7 +250,6 @@ function BrandCarousel() {
           </button>
         </div>
 
-        {/* barra de progreso del autoplay */}
         <div className="absolute bottom-0 left-0 right-0 h-1 bg-white/20 z-10">
           <motion.div
             key={`${index}-${paused}`}
