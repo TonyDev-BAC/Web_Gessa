@@ -4,7 +4,7 @@ export const brands = [
     name: "Perimercados",
     tag: "Cercanía de barrio",
     stores: "17 tiendas",
-    color: "var(--color-peri-blue)",
+    color: "var(--color-peri-red)",
     description:
       "Peri entiende a sus clientes y les ofrece lo que necesitan: amplia variedad, infraestructura cómoda y un servicio excepcional en el corazón de cada comunidad.",
   },
@@ -13,7 +13,7 @@ export const brands = [
     name: "Super Compro",
     tag: "Precios bajos, todos los días",
     stores: "34 tiendas",
-    color: "var(--color-supercompro-orange)",
+    color: "var(--color-supercompro-blue)",
     description:
       "Un supermercado regional versátil que se adapta a cada zona donde opera. Destaca por su ubicación estratégica y su promesa de precios bajos.",
   },

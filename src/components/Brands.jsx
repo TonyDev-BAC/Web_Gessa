@@ -40,7 +40,7 @@ export default function Brands() {
                     className="flex items-center gap-2 text-xs font-display font-semibold uppercase tracking-wider rounded-full px-3 py-1"
                     style={{ backgroundColor: `color-mix(in srgb, ${b.color} 15%, white)`, color: b.color }}
                   >
-                    <Store size={13} />
+                    <Store size={26} />
                     {b.stores}
                   </div>
                   
