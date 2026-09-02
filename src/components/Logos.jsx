@@ -41,7 +41,7 @@ export function SarettoLogo({ className = "", selecto = false }) {
 export function SuperViquezLogo({ className = "" }) {
   return (
     <img
-      src="/imagenes/SV.avif"
+      src="/imagenes/SV.jpg"
       alt="Super Víquez"
       className={className}
     />

@@ -2,17 +2,19 @@ import { useEffect, useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { Menu, X, Briefcase, Building2 } from "lucide-react";
 import { GessaWordmark } from "./Logos";
+import SupplierModal from "./SupplierModal";
 
 const links = [
   { href: "#marcas", label: "Marcas" },
   { href: "#nosotros", label: "Nosotros" },
-  // { href: "#contacto", label: "Contacto" },
   { href: "https://www.peridomicilio.com/", label: "Peridomicilio" },
+  { href: "#proveedor", label: "¿Quieres ser proveedor nuestro?" },
 ];
 
 export default function Navbar() {
   const [scrolled, setScrolled] = useState(false);
   const [open, setOpen] = useState(false);
+  const [supplierOpen, setSupplierOpen] = useState(false);
 
   useEffect(() => {
     const onScroll = () => setScrolled(window.scrollY > 12);
@@ -37,6 +39,14 @@ export default function Navbar() {
             <a
               key={l.href}
               href={l.href}
+              onClick={
+                l.href === "#proveedor"
+                  ? (e) => {
+                      e.preventDefault();
+                      setSupplierOpen(true);
+                    }
+                  : undefined
+              }
               className="transition-colors hover:text-[var(--color-gessa-red-dark)] text-gessa-ink"
             >
               {l.label}
@@ -78,7 +88,17 @@ export default function Navbar() {
           >
             <div className="flex flex-col px-6 py-4 gap-4 font-display font-medium">
               {links.map((l) => (
-                <a key={l.href} href={l.href} onClick={() => setOpen(false)}>
+                <a
+                  key={l.href}
+                  href={l.href}
+                  onClick={(e) => {
+                    setOpen(false);
+                    if (l.href === "#proveedor") {
+                      e.preventDefault();
+                      setSupplierOpen(true);
+                    }
+                  }}
+                >
                   {l.label}
                 </a>
               ))}
@@ -92,6 +112,8 @@ export default function Navbar() {
           </motion.div>
         )}
       </AnimatePresence>
+
+      <SupplierModal open={supplierOpen} onClose={() => setSupplierOpen(false)} />
     </header>
   );
 }
